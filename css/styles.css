@@ -1027,3 +1027,8 @@ body {
         font-size: 0.8rem;
     }
 }
+
+/* 隐藏设置按钮 */
+button[onclick="toggleSettings(event)"] {
+    display: none;
+}
